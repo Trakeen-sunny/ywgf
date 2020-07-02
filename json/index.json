@@ -1,0 +1,14 @@
+{
+  "main": [
+    {"title": "华夏银行建国支行","tip":"杭州市建国北路621号","img":"../img/img1.png"},
+    {"title": "华夏银行江城支行","tip":"杭州市建国北路29号","img":"../img/img2.png"},
+    {"title": "华夏银行城北支行","tip":"拱墅区杭行路188号路（360空间）","img":"../img/img3.png"},
+    {"title": "华夏银行建国支行","tip":"杭州市建国北路621号","img":"../img/service1.png"},
+    {"title": "华夏银行江城支行","tip":"杭州市建国北路29号","img":"../img/service2.png"},
+    {"title": "华夏银行城北支行","tip":"拱墅区杭行路188号路（360空间）","img":"../img/service3.png"},
+    {"title": "华夏银行建国支行","tip":"杭州市建国北路621号","img":"../img/user1.png"},
+    {"title": "华夏银行江城支行","tip":"杭州市建国北路29号","img":"../img/img2.png"},
+    {"title": "华夏银行城北支行","tip":"拱墅区杭行路188号路（360空间）","img":"../img/img3.png"},
+    {"title": "华夏银行建国支行","tip":"杭州市建国北路621号","img":"../img/img1.png"}
+  ]
+}

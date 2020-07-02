@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合作商户</title>
+    <link rel="stylesheet" href="../asset/iconfont/iconfont.css" type="text/css" />
+    <link rel="stylesheet" href="../css/common.css" type="text/css" />
+    <link rel="stylesheet" href="../css/tab.css" type="text/css" />
+</head>
+<body>
+  <div id="main">
+  <!-- 头部 -->
+  <div id="header">
+    <ul>
+      <li>
+          <span class="icon iconfont arrow">&#xe6bc;</span>
+          <span>返回</span>
+      </li>
+      <li>合作商户</li>
+      <li><span class="icon iconfont slh">&#xe708;</span></li>
+  </ul>
+  </div>
+  <!-- 内容部分 -->
+  <div id="content">
+    <ul class="tab">
+        <li class="activeColor" onclick="tabClick(1)">选择支行</li>
+        <li onclick="tabClick(2)">分类</li>
+    </ul>
+    <div class="refresh-loading">
+      <div class="g-m--c"></div>
+      <p class="refresh-txt">下拉可刷新</p>
+    </div>
+    <ul class="select_show" id="ul">
+    </ul>
+    <div class="load">加载中～</div>
+  </div>
+  <!-- 尾部 -->
+  <div id="footer">
+    <ul>
+      <li onclick="goTo(1)">
+        <span class="icon iconfont icons">&#xe6c6;</span><span>支行介绍</span>
+    </li>
+     <li onclick="goTo(2)">
+       <span class="icon iconfont icons">&#xe624;</span><span>合作商户</span>
+    </li>
+    <li onclick="goTo(3)">
+      <span class="icon iconfont icons">&#xe666;</span><span>便利社区</span>
+    </li>
+    <li onclick="goTo(4)">
+      <span class="icon iconfont icons">&#xe61e;</span><span>我的账户</span>
+    </li>
+  </ul>
+  </div>
+  </div>
+</body>
+</html>
+<script src="../js/scroll.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/httpRequest.js"></script>
+<script src="../js/tab.js"></script>

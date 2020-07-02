@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>幸运转盘</title>
+    <link rel="stylesheet" href="../asset/iconfont/iconfont.css" type="text/css" />
+    <link rel="stylesheet" href="../css/common.css" type="text/css" />
+    <link rel="stylesheet" href="../css/luckyTurn.css" type="text/css" />
+</head>
+<body>
+  <div id="main">
+  <!-- 头部 -->
+  <div id="header">
+    <ul>
+      <li>
+          <span style="visibility: hidden;" class="icon iconfont arrow">&#xe6bc;</span>
+          <span>返回</span>
+      </li>
+      <li>社区支行</li>
+      <li><span class="icon iconfont slh">&#xe708;</span></li>
+  </ul>
+  </div>
+  <!-- 内容部分 -->
+  <div id="content">
+    <div class="lucky_title">
+        <img src="../img/xingyun.png" />
+    </div>
+    <div class="lucky_zp">
+      <img src="../img/zhuanpan.png" class="zp"/>
+      <div class="bw">
+        <div>
+            <img src="../img/b-w.png"/>
+            <ol class="prize">
+               
+            </ol>
+        </div>
+      </div>
+      <img src="../img/zhuanpan-row.png" class="row" ontouchstart="beginStart()"/>
+    </div>
+    <div class="lucky_note">
+        <div class="lucky_tip">
+            <div class="title">
+                <img src="../img/title_bg.png" />
+                <span>活动规则</span>
+            </div>
+            <ul class="rule">
+                <li>
+                    <h4>活动时间</h4>
+                    <span class="date"></span>
+                </li>
+                <li class="qs">
+                    <h4>参与资格</h4>
+                </li>
+                <li>
+                    <h4>活动奖励</h4>
+                    <div>
+                        <span class="prizes"></span>
+                        <img src="../img/liwubox.png" />
+                    </div>
+                   
+                </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  <!-- 尾部 -->
+  <div id="footer">
+    <ul>
+        <li onclick="goTo(1)">
+          <span class="icon iconfont icons">&#xe78d;</span><span>优惠生活</span>
+        </li>
+         <li onclick="goTo(2)">
+          <span class="icon iconfont icons">&#xe634;</span><span>礼品兑换</span>
+        </li>
+        <li onclick="goTo(3)">
+          <span class="icon iconfont icons">&#xe666;</span><span>便利社区</span>
+        </li>
+        <li onclick="goTo(4)">
+          <span class="icon iconfont icons">&#xe61e;</span><span>我的账户</span>
+        </li>
+    </ul>
+  </div>
+  </div>
+</body>
+</html>
+<script src="../js/common.js"></script>
+<script src="../js/httpRequest.js"></script>
+<script src="../js/luckyTurn.js"></script>

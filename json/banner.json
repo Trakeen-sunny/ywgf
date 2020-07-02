@@ -1,0 +1,24 @@
+{
+    "banner": [
+        {
+            "img": "../img/img1.png",
+            "title": "华夏银行建国支行 建国北路1号"
+        },
+        {
+            "img": "../img/img2.png",
+            "title": "华夏银行建国支行 建国北路2号"
+        },
+        {
+            "img": "../img/img3.png",
+            "title": "华夏银行建国支行 建国北路3号"
+        },
+        {
+            "img": "../img/service1.png",
+            "title": "华夏银行建国支行 建国北路4号"
+        },
+        {
+            "img": "../img/service2.png",
+            "title": "华夏银行建国支行 建国北路5号"
+        }
+    ]
+}
